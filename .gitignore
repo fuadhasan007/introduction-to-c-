@@ -24,6 +24,7 @@
 # Debug or release directories
 debug/
 release/
+output/
 
 # CMake generated files
 CMakeFiles/
