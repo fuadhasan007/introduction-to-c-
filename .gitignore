@@ -1,0 +1,53 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode specific files
+# User-specific and IDE settings
+*.xcuserstate
+*.xcworkspace
+
+# Compiled object files, executables, and libraries
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+*.lib
+*.exe
+
+# Compiled binaries
+*.out
+*.app
+
+# Debug or release directories
+debug/
+release/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Eclipse or other IDE-specific files
+.project
+.cproject
+.settings/
+
+# Build directories
+build/
+bin/
+lib/
+
+# Temporary files created by text editors
+*.swp
+*.swo
+*.swn
+
+# Logs
+*.log
+
+# macOS Trash folder that might appear on external drives
+.Trashes
