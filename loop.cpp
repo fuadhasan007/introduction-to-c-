@@ -18,12 +18,22 @@ int main(){
 
     // loop
     // int i = 0;
-    for(int i = 0; i < 10; i++){
-        for(int j = 0; j<i; j++){
-            cout << "* ";
-        }
-        cout<< endl;
-    }
+    // for(int i = 0; i < 10; i++){
+    //     for(int j = 0; j<i; j++){
+    //         cout << "* ";
+    //     }
+    //     cout<< endl;
+    // }
     // cout << !(1 < 5) << endl;
+   /*int x = 5;
+    int y = 10;
+    double z = x/y;
+    cout << z << endl; // 0 */
+
+
+
+
+    
     return 0;
+    
 }
