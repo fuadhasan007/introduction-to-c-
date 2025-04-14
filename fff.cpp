@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     int arr[10];
     int sum = 0;
-    int maxVal = INT_MIN; /
+    int maxVal = INT_MIN; 
 
 
     cout << "Enter 10 integers: ";
