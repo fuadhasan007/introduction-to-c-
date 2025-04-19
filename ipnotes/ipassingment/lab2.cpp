@@ -2,15 +2,18 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int numbers[10];
+    int numbers[7];
     int evenSum = 0, oddSum = 0;
 
-    cout << "Enter 10 integers: ";
-    for (int i = 0; i < 10; i++) {
+    //taking user inputs 
+    for (int i = 0; i < 7; i++) {
+    cout << "Enter integers  "  <<i+1<< " ="; 
+        
         cin >> numbers[i];
+    
     }
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 7; i++) { 
         if (numbers[i] % 2 == 0) {
             evenSum += numbers[i];
         } else {

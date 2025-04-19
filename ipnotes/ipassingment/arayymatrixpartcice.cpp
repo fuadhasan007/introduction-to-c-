@@ -28,7 +28,7 @@ int main() {
     // Check if multiplication is possible
     if (col1 != row2) {
         cout << "Matrix multiplication is not possible." << endl;
-        return 0;
+        
     }
 
     // Initialize the result matrix
@@ -37,3 +37,4 @@ int main() {
             c[i][j] = 0;
         }
     }
+    return 0;}
