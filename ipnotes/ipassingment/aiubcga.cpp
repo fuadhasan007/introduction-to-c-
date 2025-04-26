@@ -8,7 +8,7 @@ int main()
     cin>>n;
     if(n>=90)
     {
-        cout<<"Grade letter=A+,Grade point=4.00"<<endl;
+        cout<<"Grade letter=A+,Grade point = 4.00"<<endl;
     }
     else if(n>=85)
     {

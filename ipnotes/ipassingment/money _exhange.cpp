@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    float usd;
+    float usd; 
     float bdt;
     cout << "Enter amount in USD: ";
     cin >> usd;

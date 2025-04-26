@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;    
 int main() {
-    int n = 10; // Number of terms in the Fibonacci series
+    int n; // Number of terms in the Fibonacci series
     cout << "Enter the number of terms: ";
     cin >> n;
 
