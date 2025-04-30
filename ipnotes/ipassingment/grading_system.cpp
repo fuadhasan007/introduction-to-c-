@@ -4,7 +4,20 @@ If a student with a C grade attended 90% or more of the classes, their grade sho
 #include <string>
 using namespace std;
 int main() {
-    int numStudents;
+    int numStudents;Key Points
+    Dynamic Arrays:
+    
+    The arrays are sized dynamically based on the number of students entered by the user.
+    Grade Adjustment:
+    
+    Students with a C grade and 90% or higher attendance have their grades upgraded to B.
+    Scalability:
+    
+    The program can handle any number of students, limited only by system memory.
+    Input Validation:
+    
+    The program assumes valid input (e.g., non-negative percentages and attendance). Additional checks could be added for robustness.
+    Let me know if you need further clarification!
     cout << "Enter the number of students: ";
     cin >> numStudents;
 
