@@ -17,23 +17,6 @@ int main (void){
     y=78;
     cout<<"y="<<y<<endl;
     cout<<"*u="<<*u<<endl;
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  return 0;   

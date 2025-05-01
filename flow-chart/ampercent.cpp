@@ -10,8 +10,8 @@ int main() {
   int *a; 
 
   a=&x;
-
-  (*a)++; 
+int count;
+ // (*a)++; 
   cout<<"Address of X: "<<&x<<endl; 
 
   cout<<"Address of A: "<<&a<<endl; 
@@ -19,7 +19,7 @@ int main() {
   cout<<"Value of A: "<<x<<endl; 
 
   cout<<"Value of *a: "<<*a<<endl;
- 
+ count++;
     return 0;
 
 }
