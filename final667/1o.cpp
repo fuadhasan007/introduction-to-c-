@@ -11,8 +11,9 @@ void evenOdd(int n){
     }
 }
 int main(){
-    for (int i = 0; i < 9; i++){
-        evenOdd(i);
-    }
+    //for (int i = 0; i < 9; i++){
+    evenOdd(5); // Replace 5 with any integer value you want to test
+
+   // }
     return 0;
 }

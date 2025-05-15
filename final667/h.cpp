@@ -1,32 +1,36 @@
 #include <iostream>
-using namespace std; 
-int sum(int x, int y); 
-void sub();
- 
-int total; 
+using namespace std;
+
+int sum(int x, int y);
+float sub();
+
 int main() {
-    int a, b;  
-    cout<<"Enter The Number 1: "; 
-    cin>>a;
-    cout<<"Enter The Number 2: "; 
-    cin>>b;
-    sum(a,b);
-    cout<<"Total Sum Is: "<<total<<endl; 
+    int a, b;
+    cout << "Enter The Number 1: ";
+    cin >> a;
+    cout << "Enter The Number 2: ";
+    cin >> b;
+
+    int total = sum(a, b);
+    cout << "Total Sum Is: " << total << endl;
+
+    // Uncomment the following line if you want to use sub()
+     sub();
+
     return 0;
 }
-int  sum(int x, int y)
-{
-    total = x+y;
-    return total; 
+
+int sum(int x, int y) {
+    return x + y;
 }
-void sub()
-{
-    float a, b, subtract=0; 
-    cout<<"Enter The Number 1: "; 
-    cin>>a;
-    cout<<"Enter The Number 2: "; 
-    cin>>b;
-    subtract = a-b;
-    cout<<"Total Subtract Is: "<<subtract<<endl; 
-    //return 0;  
+
+float sub() {
+    float a, b;
+    cout << "Enter The Number 1: ";
+    cin >> a;
+    cout << "Enter The Number 2: ";
+    cin >> b;
+    float subtract = a - b;
+    cout << "Total Subtract Is: " << subtract << endl;
+    return subtract;
 }
