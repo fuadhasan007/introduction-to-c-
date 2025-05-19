@@ -1,19 +1,14 @@
-//even odd using functions use parameter 
-
 #include <iostream>
-using namespace std;            
-void evenOdd(int n){
-    if (n % 2 == 0){
-        cout << n << " is even" << endl;
-    }
-    else{
-        cout << n << " is odd" << endl;
-    }
-}
-int main(){
-    //for (int i = 0; i < 9; i++){
-    evenOdd(5); // Replace 5 with any integer value you want to test
+using namespace std;
 
-   // }
+int main() {
+    int arr[3] = {10, 20, 30};
+    int *p = arr;  // same as &arr[0]
+
+    cout << "arr[0] = " << arr[0] << endl;
+    cout << "*p = " << *p << endl;       // same as arr[0]
+    cout << "*(p+1) = " << *(p + 1) << endl;  // arr[1]
+    cout << "*(p+2) = " << *(p + 2) << endl;  // arr[2]
+
     return 0;
 }
